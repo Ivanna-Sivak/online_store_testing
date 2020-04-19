@@ -8,3 +8,21 @@ class MainPageLocators():
 class LoginPageLocators():
     EMAIL_ADDRESS_FIELD_LOGIN = (By.ID, "id_login-username")
     EMAIL_ADDRESS_FIELD_REGISTER = (By.ID, "id_registration-email")
+
+
+class ProductPageLocators():
+    ADD_TO_BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    SEARCH_FIELD = (By.CSS_SELECTOR, "[type=search]")
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    HAS_BEEN_ADDED_TO_BASKET = (By.CSS_SELECTOR, "#messages div:first-child .alertinner strong")
+
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+

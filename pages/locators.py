@@ -22,7 +22,8 @@ class BasePageLocators():
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
 
 
-class BasePageLocators():
-    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
-    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+class BasketPageLocators():
+    BASKET_LINK = (By.CSS_SELECTOR, ".basket-mini span a")
+    PROCEED_TO_CHECKOUT_BUTTON = (By.PARTIAL_LINK_TEXT, "checkout/")
+    EMPTY_BASKET_TEXT = (By.CSS_SELECTOR, "#content_inner p")
 
